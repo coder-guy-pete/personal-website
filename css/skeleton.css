@@ -51,7 +51,7 @@
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 75%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -103,12 +103,12 @@
   .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
 
   .offset-by-one-third.column,
-  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .offset-by-one-third.columns    { margin-left: 2.88888888889%; }
   .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+  .offset-by-two-thirds.columns   { margin-left: 5.77777777778%; }
 
   .offset-by-one-half.column,
-  .offset-by-one-half.columns     { margin-left: 52%; }
+  .offset-by-one-half.columns     { margin-left: 4.333333333333%; }
 
 }
 
@@ -154,11 +154,17 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   max-width: 150px;
 }
 
-.social {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 30px;
+.linkedin {
+  display: inline-block;
+  margin: 10px auto;
+  width: 35px;
+  padding-left: 5px;
+}
+
+.instagram {
+  display: inline-block;
+  margin: 10px auto;
+  width: 45px;
   padding-left: 5px;
 }
 
@@ -194,7 +200,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #A3B18A;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -205,7 +211,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid #A3B18A;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -218,8 +224,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: #344E41;
+  border-color: #344E41;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -227,8 +233,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #588157;
+  border-color: #588157; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -240,8 +246,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #3A5A40;
+  border-color: #3A5A40; }
 
 
 /* Forms
