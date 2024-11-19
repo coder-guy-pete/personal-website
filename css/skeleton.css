@@ -153,32 +153,6 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
-.headshot {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width: 50%;
-  border-radius: 50%;
-  max-width: 150px;
-}
-
-.linkedin {
-  display: inline-block;
-  margin: 0 auto;
-  width: 50%;
-  max-width: 35px;
-  padding-left: 5px;
-}
-
-.instagram {
-  display: inline-block;
-  margin: 0 auto;
-  width: 50%;
-  max-width: 45px;
-  padding-left: 5px;
-}
-
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
@@ -245,7 +219,7 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
   background-color: #588157;
-  border-color: #588157; }
+  border-color: #588157;}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -278,7 +252,9 @@ select {
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -289,8 +265,8 @@ input[type="url"],
 input[type="password"],
 textarea {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
+  -moz-appearance: none;
+  appearance: none; }
 textarea {
   min-height: 65px;
   padding-top: 6px;
@@ -322,27 +298,33 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
-
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
   list-style: circle inside;
   text-align: left;
- }
+}
+
 ol {
-  list-style: decimal inside; }
+  list-style: decimal inside;
+}
+
 ol, ul {
   padding-left: 0;
-  margin-top: 0; }
+  margin-top: 0;
+}
+
 ul ul,
 ul ol,
 ol ol,
 ol ul {
   margin: 0.5rem 0 0.5rem 1rem;
-  font-size: 90%; }
-li {
-  margin-bottom: 1rem; }
+  font-size: 90%;
+}
 
+li {
+  margin-bottom: 1rem;
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -411,7 +393,7 @@ form {
   float: left; }
 
 
-/* Misc
+/* Custom CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
   margin-top: 3rem;
@@ -419,6 +401,45 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.header {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.linkedin, .github {
+  max-width: 35px;
+}
+
+.instagram {
+  max-width: 45px;
+}
+
+.recipe-planner-header {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.recipe-planner-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
