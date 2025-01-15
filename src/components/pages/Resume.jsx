@@ -21,7 +21,7 @@ function Resume() {
             <Heading as="h2" size="lg" mb={2}>
             Resume
             </Heading>
-            <Link href="https://read.cv/phintze">Read.cv <LuExternalLink /></Link>
+            <Link href="https://read.cv/phintze" target="_blank" w="fit-content">Read.cv <LuExternalLink /></Link>
 
             <Heading as="h3" size="md" mb={2}>
             Technologies I am proficient in:

@@ -17,7 +17,7 @@ import Footer from "./components/structures/Footer";
 
 function Layout() {
   return (
-    <Box bg="gray.100" minH="100vh" py={10}>
+    <Box bg="gray.100" minH="100vh" py={10} style={{ fontFamily: "Lato" }}>
       <Container maxW="container.lg">
         <Navbar />
         <Outlet />
