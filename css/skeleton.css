@@ -129,7 +129,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #344E41;
+  color: #394b42;
 }
 hr.footer-line {
   border-top: 1px solid #DAD7CD;
@@ -170,7 +170,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #A3B18A; }
+  color: #828e6e; }
 a:hover {
   color: #3A5A40; }
 
@@ -185,7 +185,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #A3B18A;
+  color: #828e6e;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
