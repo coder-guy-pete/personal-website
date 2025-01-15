@@ -1,12 +1,9 @@
 // ContactForm.jsx
-import { Box, Heading, Input, Textarea, Button, VStack, Text } from "@chakra-ui/react";
+import { Box, Input, Textarea, Button, VStack, Text } from "@chakra-ui/react";
 
 export function ContactForm({ formData, errors, handleChange, handleBlur, handleSubmit }) {
     return (
         <Box>
-        <Heading as="h2" size="lg" mb={4} textAlign="center">
-            Contact Me
-        </Heading>
         <VStack as="form" spacing={4} onSubmit={handleSubmit}>
             {/* Name Input */}
             <Box w="100%">
