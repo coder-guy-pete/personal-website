@@ -14,8 +14,8 @@ function Resume() {
         p={6}
         borderRadius="xl"
         boxShadow="md"
-        width="75%"
-        margin="auto"
+        w={{ base: "100%", md: "75%", lg: "60%" }}
+        m="auto"
         >
         <Flex direction="column" mb={4} w="100%" pl={4} pr={4} gap={4}>
             <Heading as="h2" size="lg" mb={2}>

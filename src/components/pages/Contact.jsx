@@ -14,8 +14,8 @@ function Contact() {
         p={6}
         borderRadius="xl"
         boxShadow="md"
-        width={{ base: "90%", md: "75%", lg: "50%" }}
-        margin="auto"
+        w={{ base: "100%", md: "75%", lg: "60%" }}
+        m="auto"
         >
         <Heading as="h2" size="lg" mb={4}>
             Contact Me
