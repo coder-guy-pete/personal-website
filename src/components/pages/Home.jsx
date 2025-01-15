@@ -30,7 +30,7 @@ function Home() {
                 <Text>
                     I recently enrolled in a Full Stack Developer bootcamp at UNC Chapel Hill, where I am learning the ins and outs of software development from version control, to setting up an development environment, to deploying an application.
                     I am excited to see where this journey takes me and how I can leverage my new skills to build amazing products and to take more direct role in development in my professional career.
-                    The projects section of the site are projects I have completed throughout this bootcamp, I will periodically update this site with my progress and projects that I am working on.
+                    The portfolio section highlights projects I have completed throughout this bootcamp, I will periodically update this section with my progress.
                 </Text>
             </Flex>
     );
