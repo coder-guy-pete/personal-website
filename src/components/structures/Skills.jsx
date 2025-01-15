@@ -1,5 +1,6 @@
 import { Badge, Flex } from "@chakra-ui/react";
 import { projectList } from "../data-logic/ProjectList";
+import { getSkillIcon } from "../data-logic/SkillBadge";
 
 function Skills() {
   // Combine all skills from projects into a single array
@@ -11,7 +12,9 @@ function Skills() {
     return (
         <Flex wrap="wrap" gap={4}>
             {Array.from(uniqueSkills).map((skill) => (
-            <Badge key={skill} size="md">{skill}</Badge>
+            <Badge key={skill} size="md">
+                {getSkillIcon(skill)} {skill}
+            </Badge>
             ))}
         </Flex>
     );

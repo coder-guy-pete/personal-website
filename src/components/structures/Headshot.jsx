@@ -15,7 +15,7 @@ export const Headshot = () => {
         <Avatar
         size="2xl"
         name="Peter Hintze"
-        src="src/assets/headshot.png"
+        src="/images/headshot.png"
         css={ringCSS}
         />
     );
