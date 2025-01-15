@@ -12,8 +12,8 @@ function About() {
         p={6}
         borderRadius="xl"
         boxShadow="md"
-        width="75%"
-        margin="auto"
+        w={{ base: "100%", md: "75%", lg: "60%" }}
+        m="auto"
         >
             <Heading as="h2" size="lg" mb={4}>
                 About Me

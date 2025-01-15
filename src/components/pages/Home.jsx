@@ -11,8 +11,8 @@ function Home() {
             p={6}
             borderRadius="xl"
             boxShadow="md"
-            w="75%"
-            margin="auto"
+            w={{ base: "100%", md: "75%", lg: "60%" }}
+            m="auto"
             direction="column"
             mb={4}
             pl={4}

@@ -10,7 +10,7 @@ import { getSkillIcon } from "../data-logic/SkillBadge";
 
 function ProjectCard({ project }) {
     return (
-        <Card.Root maxW="sm" variant="elevated">
+        <Card.Root maxW="md" variant="elevated">
             <Card.Body p="0px">
                 <Image src={project.imageSrc} alt={project.name} borderRadius="lg" mb={4} height="250px" fit="containt" />
                 <Card.Title size="md" pb={3} pl={5}>{project.name}</Card.Title>
