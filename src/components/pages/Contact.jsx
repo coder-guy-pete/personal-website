@@ -21,7 +21,7 @@ function Contact() {
             Contact Me
         </Heading>
         <Flex direction="column" mb={6} pl={2} pr={2}>
-            <p>You can reach me directly at: <Link href="mailto:hintze.peter@gmail.com" style={{ textDecoration: "underline" }}>hintze.peter@gmail.com</Link> or by filling in the form below.</p>
+            <p>You can reach me directly at: <Link href="mailto:hintze.peter@gmail.com" style={{ textDecoration: "underline" }}>hintze.peter@gmail.com</Link> or by filling out the form below.</p>
         </Flex>
         <ContactLogic>
             {({ formData, errors, handleChange, handleBlur, handleSubmit }) => (
