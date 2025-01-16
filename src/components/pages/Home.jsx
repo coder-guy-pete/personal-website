@@ -19,7 +19,7 @@ function Home() {
             pr={8}
             gap={4}>
                 <Heading as="h2" size="lg" mb={4}>
-                    Hi I'm Peter, a Program Manager based out of Durham, NC
+                    Hi! I'm Peter, a Program Manager based out of Durham, NC
                 </Heading>
                 <Text>
                     I am currently a Principal Program Manager at Oracle Health, leading program efforts for critical org-wide projects.
@@ -28,9 +28,9 @@ function Home() {
                 </Text>
                 <Spacer />
                 <Text>
-                    I recently enrolled in a Full Stack Developer bootcamp at UNC Chapel Hill, where I am learning the ins and outs of software development from version control, to setting up an development environment, to deploying an application.
-                    I am excited to see where this journey takes me and how I can leverage my new skills to build amazing products and to take more direct role in development in my professional career.
-                    The portfolio section highlights projects I have completed throughout this bootcamp, I will periodically update this section with my progress.
+                    I am enrolled in a Full Stack Developer bootcamp at UNC Chapel Hill, where I am learning the ins and outs of software development from version control, to setting up a development environment, to deploying an application.
+                    I am excited to see where this journey takes me, how I can leverage my new skills to build amazing products and to pursue a career in software development.
+                    The portfolio section highlights projects I have completed throughout this bootcamp, which I will periodically update with my progress.
                 </Text>
             </Flex>
     );

@@ -50,7 +50,7 @@ export const Timeline = () => {
                 </TimelineConnector>
                 <TimelineContent>
                     <TimelineTitle>
-                        Wrapped up 1 year at eBay 
+                        Completed 1 year at eBay 
                     </TimelineTitle>
                 </TimelineContent>
             </TimelineItem>
@@ -64,7 +64,7 @@ export const Timeline = () => {
                 </TimelineConnector>
                 <TimelineContent>
                     <TimelineTitle>
-                        Started working at Oracle
+                        Joined Oracle
                     </TimelineTitle>
                 </TimelineContent>
             </TimelineItem>
@@ -78,7 +78,7 @@ export const Timeline = () => {
                 </TimelineConnector>
                 <TimelineContent>
                     <TimelineTitle>
-                        Transitioned into Program Management
+                        Transitioned into Program Management at Oracle
                     </TimelineTitle>
                 </TimelineContent>
             </TimelineItem>
@@ -120,7 +120,7 @@ export const Timeline = () => {
                 </TimelineConnector>
                 <TimelineContent>
                     <TimelineTitle>
-                        Promoted to Principal Program Manager
+                        Promoted to Principal Program Manager at Oracle
                     </TimelineTitle>
                 </TimelineContent>
             </TimelineItem>
@@ -134,7 +134,7 @@ export const Timeline = () => {
                 </TimelineConnector>
                 <TimelineContent>
                     <TimelineTitle>
-                        Transitioned to Health Data Intelligence division
+                        Transitioned to Health Data Intelligence division at Oracle
                     </TimelineTitle>
                 </TimelineContent>
             </TimelineItem>

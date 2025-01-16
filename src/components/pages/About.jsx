@@ -22,10 +22,10 @@ function About() {
                 <Timeline />
                 <Flex direction="column" mb={4} w={{ base: "100%", md: "75%" }} gap={4}>
                     <Text>
-                        When I graduated from CUNY Baruch College in 2015, I jumped immediately into the Adtech industry.
-                        I started my career at MediaMath through their Marketing Engineer program.
-                        It was through this program that I developed a deep facination for the industry and love for software technology.
-                        From there I moved on to work at eBay, where I managed their programmatic advertising efforts, and then I went to work for Moat,
+                        When I graduated from CUNY Baruch College in 2015, I jumped immediately into the Adtech industry and
+                        started my career at MediaMath through their Marketing Engineer program. It was through this program that I 
+                        developed a deep fascination for the industry and love for software technology.
+                        From there I moved on to work at eBay, where I managed their programmatic advertising efforts. I then went to work for Moat,
                         an ad verification company that was later acquired by Oracle.
                     </Text>
                     <Text>
@@ -38,6 +38,12 @@ function About() {
                         In 2024, Oracle sold off their Advertising division and I transitioned into the Health Data Intelligence division. I am currently a Principal Program Manager at Oracle Health, leading program efforts for critical org-wide projects.
                         These projects are focused on overhauling the reporting systems that our customers interact with and migrating our legacy systems to Oracle owned and operated equivalent systems.
                         I work closely with cross-functional teams to ensure that we are delivering these high-value projects on time and within budget.
+                    </Text>
+                    <Text>
+                        I was born and raised in Queens, NY. I spent some time living on the West Coast in Seattle when I was working for eBay, and then 8 or so years living in Brooklyn, NY where I met my wife.
+                        In 2024 we moved to Durham, NC where we now live with our dog Koda. When I am not working, I enjoy training brazilian jiu jitsu. I am a black belt under Josh Griffiths, owner of <a href="https://www.clockworkbjj.com/" target="_blank" style={{ textDecoration: "underline" }}>Clockwork Jiu Jitsu</a>. 
+                        I have been training for over a decade and have made some amazing connections along the way.
+                        I currently train and teach at <a href="https://elevatemmaacademy.com/" target="_blank" style={{ textDecoration: "underline" }}>Elevate MMA</a>.
                     </Text>
                 </Flex>
             </Flex>
