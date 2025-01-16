@@ -17,10 +17,10 @@ function Contact() {
         w={{ base: "100%", md: "75%", lg: "60%" }}
         m="auto"
         >
-        <Heading as="h2" size="lg" mb={4}>
+        <Heading as="h2" size="lg" mb={4} pl={2}>
             Contact Me
         </Heading>
-        <Flex direction="column" mb={6}>
+        <Flex direction="column" mb={6} pl={2} pr={2}>
             <p>You can reach me directly at: <Link href="mailto:hintze.peter@gmail.com" style={{ textDecoration: "underline" }}>hintze.peter@gmail.com</Link> or by filling in the form below.</p>
         </Flex>
         <ContactLogic>

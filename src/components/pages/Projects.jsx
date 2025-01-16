@@ -16,7 +16,7 @@ function Projects() {
         w={{ base: "100%", md: "75%" }}
         m="auto"
         >
-        <Heading as="h2" size="lg" mb={4}>
+        <Heading as="h2" size="lg" mb={4} pl={2}>
             Portfolio
         </Heading>
         <Flex gap={10} flexWrap="wrap" justifyContent="center">

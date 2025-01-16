@@ -17,7 +17,7 @@ function Resume() {
         w={{ base: "100%", md: "75%", lg: "60%" }}
         m="auto"
         >
-        <Flex direction="column" mb={4} w="100%" pl={4} pr={4} gap={4}>
+        <Flex direction="column" mb={4} w="100%" pl={2} pr={2} gap={4}>
             <Heading as="h2" size="lg" mb={2}>
             Resume
             </Heading>
