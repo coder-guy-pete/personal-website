@@ -4,7 +4,7 @@ import { Box, Input, Textarea, Button, VStack, Text } from "@chakra-ui/react";
 export function ContactForm({ formData, errors, handleChange, handleBlur, handleSubmit }) {
     return (
         <Box>
-        <VStack as="form" spacing={4} onSubmit={handleSubmit}>
+        <VStack as="form" spacing={4} onSubmit={handleSubmit} pl={2} pr={2}>
             {/* Name Input */}
             <Box w="100%">
             <Text as="label" htmlFor="name" fontWeight="bold" mb={1}>
@@ -59,7 +59,7 @@ export function ContactForm({ formData, errors, handleChange, handleBlur, handle
             {errors.message && <Text color="red.500" fontSize="sm" mt={1}>Message is required.</Text>}
             </Box>
 
-            <Button type="submit" colorScheme="teal" width="full">
+            <Button type="submit" colorScheme="teal" width="full" w="wrap-content" borderRadius="lg">
             Submit
             </Button>
         </VStack>

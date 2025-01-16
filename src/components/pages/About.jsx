@@ -15,10 +15,10 @@ function About() {
         w={{ base: "100%", md: "75%", lg: "60%" }}
         m="auto"
         >
-            <Heading as="h2" size="lg" mb={4}>
+            <Heading as="h2" size="lg" mb={4} pl={{ base: 2, md: 0 }}>
                 About Me
             </Heading>
-            <Flex direction="row" mb={4} gap={4}>
+            <Flex direction="row" mb={4} gap={{base: 2, md: 4}}>
                 <Timeline />
                 <Flex direction="column" mb={4} w={{ base: "100%", md: "75%" }} gap={4}>
                     <Text>

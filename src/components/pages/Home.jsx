@@ -15,8 +15,8 @@ function Home() {
             m="auto"
             direction="column"
             mb={4}
-            pl={4}
-            pr={4}
+            pl={8}
+            pr={8}
             gap={4}>
                 <Heading as="h2" size="lg" mb={4}>
                     Hi I'm Peter, a Program Manager based out of Durham, NC
