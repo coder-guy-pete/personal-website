@@ -20,7 +20,7 @@ function Projects() {
             Portfolio
         </Heading>
         <Flex gap={10} flexWrap="wrap" justifyContent="center">
-            {projectList.map((project) => (
+            {projectList.slice(0).reverse().map((project) => (
                 <ProjectCard key={project.name} project={project} />
             ))}
         </Flex>
