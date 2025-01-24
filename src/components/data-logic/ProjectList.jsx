@@ -76,4 +76,11 @@ export const projectList = [
             github: "",
             skills: ["React", "Chakra UI", "Vite", "React-Router", "Node.js", "NPM"],
         },
+        {
+            name: "Candidate Search",
+            imageSrc:"/images/candidate-search-app.gif",
+            description: "A React application that calls Github APIs and renders candidate information for the user to review.",
+            github: "https://github.com/coder-guy-pete/candidate-search",
+            skills: ["React", "Vite", "TypeScript","Node.js", "NPM", "APIs"],
+        },
     ];
