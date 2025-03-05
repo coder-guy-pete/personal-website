@@ -83,4 +83,18 @@ export const projectList = [
             github: "https://github.com/coder-guy-pete/candidate-search",
             skills: ["React", "Vite", "TypeScript","Node.js", "NPM", "APIs"],
         },
+        {
+            name: "Social Media API",
+            imageSrc: "/images/social-media-app.gif",
+            description: "A social media API that allows users to create, update, and delete users, thoughts, and reactions.",
+            github: "https://github.com/coder-guy-pete/social-network-api",
+            skills: ["Express.js", "Node.js", "NPM", "MongoDB", "Mongoose"],
+        },
+        {
+            name: "Book Search Engine",
+            imageSrc: "/images/book-search-engine.gif",
+            description: "A web application that allows users to search for books and save them to their profile.",
+            github: "https://github.com/coder-guy-pete/book-search-engine",
+            skills: ["React", "Apollo", "GraphQL", "Node.js", "NPM"],
+        }
     ];
