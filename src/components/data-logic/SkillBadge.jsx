@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaNpm } from "react-icons/fa";
-import { SiTypescript, SiExpress, SiPostgresql, SiVite, SiBootstrap, SiTailwindcss, SiChakraui } from "react-icons/si";
+import { SiTypescript, SiExpress, SiPostgresql, SiVite, SiBootstrap, SiTailwindcss, SiChakraui, SiMongodb, SiMongoose, SiGraphql, SiApollographql } from "react-icons/si";
 
 export function getSkillIcon(skill) {
     switch (skill) {
@@ -29,6 +29,14 @@ export function getSkillIcon(skill) {
             return <SiTailwindcss />;
         case "Chakra UI":
             return <SiChakraui />;
+        case "MongoDB":
+            return <SiMongodb />;
+        case "Mongoose":
+            return <SiMongoose />;
+        case "GraphQL":
+            return <SiGraphql />;
+        case "Apollo":
+            return <SiApollographql />;
         default:
             return null;
     }

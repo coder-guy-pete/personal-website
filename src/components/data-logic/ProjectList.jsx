@@ -95,6 +95,6 @@ export const projectList = [
             imageSrc: "/images/book-search-engine.gif",
             description: "A web application that allows users to search for books and save them to their profile.",
             github: "https://github.com/coder-guy-pete/book-search-engine",
-            skills: ["React", "Apollo", "GraphQL", "Node.js", "NPM"],
+            skills: ["React", "Apollo", "GraphQL", "Node.js", "NPM", "MongoDB", "Mongoose"],
         }
     ];
