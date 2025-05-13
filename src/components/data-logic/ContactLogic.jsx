@@ -55,7 +55,7 @@ export function ContactLogic({ children }) {
         }
 
         try {
-            const scriptURL = "https://script.google.com/macros/s/AKfycbzpPyxf-gloVz2CHBj3eSaklpgEWwFN6LnxnJureZ46-PuuRDOQztZFjqvNOjIwCXmXsg/exec";
+            const scriptURL = "https://script.google.com/macros/s/AKfycbzm4hk2SC5tA5kbzIudJqBnsEfhoZmO3XfqsRalne0SfcgfPOE0AHDPYvLkAOOMJZzA7A/exec";
             const formPayload = new FormData();
 
             formPayload.append("name", formData.name);
