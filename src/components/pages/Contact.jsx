@@ -3,6 +3,7 @@ import { Box, Heading, Flex } from "@chakra-ui/react";
 import { useColorMode } from "../ui/color-mode";
 import { ContactForm } from "../structures/ContactForm";
 import { ContactLogic } from "../data-logic/ContactLogic";
+import { Toaster } from "../ui/toaster";
 
 function Contact() {
     const { colorMode } = useColorMode();
@@ -34,6 +35,7 @@ function Contact() {
             />
             )}
         </ContactLogic>
+        <Toaster />
         </Box>
     );
 }
