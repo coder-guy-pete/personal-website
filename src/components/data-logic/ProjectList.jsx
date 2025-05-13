@@ -96,5 +96,12 @@ export const projectList = [
             description: "A web application that allows users to search for books and save them to their profile.",
             github: "https://github.com/coder-guy-pete/book-search-engine",
             skills: ["React", "Apollo", "GraphQL", "Node.js", "NPM", "MongoDB", "Mongoose"],
+        },
+        {
+            name: "Dungeon Crawler",
+            imageSrc: "/images/dungeon_crawler.gif",
+            description: "A story-based game built on React, Typescript, and MongoDB. Users navigate a dungeon and try to escape or meet their doom.",
+            github: "https://github.com/coder-guy-pete/dungeon-crawler",
+            skills: ["React", "TypeScript", "Vite", "Apollo", "GraphQL", "Node.js", "NPM", "MongoDB", "Mongoose", "APIs"],
         }
     ];
