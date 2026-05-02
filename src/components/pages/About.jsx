@@ -3,52 +3,66 @@ import { useColorMode } from "../ui/color-mode";
 import { Timeline } from "../structures/Timeline";
 
 function About() {
-    const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode, toggleColorMode } = useColorMode();
 
-    return (
-        <Box
-        bg={colorMode === "light" ? "white" : "gray.800"}
-        color={colorMode === "light" ? "black" : "white"}
-        p={6}
-        borderRadius="xl"
-        boxShadow="md"
-        w={{ base: "100%", md: "75%", lg: "60%" }}
-        m="auto"
-        >
-            <Heading as="h2" size="lg" mb={4} pl={{ base: 2, md: 0 }}>
-                About Me
-            </Heading>
-            <Flex direction="row" mb={4} gap={{base: 2, md: 4}}>
-                <Timeline />
-                <Flex direction="column" mb={4} w={{ base: "100%", md: "75%" }} gap={4}>
-                    <Text>
-                        When I graduated from CUNY Baruch College in 2015, I jumped immediately into the Adtech industry and
-                        started my career at MediaMath through their Marketing Engineer program. It was through this program that I 
-                        developed a deep fascination for the industry and love for software technology.
-                        From there I moved on to work at eBay, where I managed their programmatic advertising efforts. I then went to work for Moat,
-                        an ad verification company that was later acquired by Oracle.
-                    </Text>
-                    <Text>
-                        In 2019 I left Oracle to join a startup called PebblePost but my time there was short lived due to the COVID-19 pandemic.
-                        I then joined Amazon and was part of their Advertising division, where I worked as a product manager to develop an internal project management
-                        tool that helped teams get products to market faster and more efficiently.
-                    </Text>
-                    <Text>
-                        In 2022 I rejoined Oracle as a Technical Program Manager in their Advertising division. I was responsible for the management of business critical projects.
-                        In 2024, Oracle sold off their Advertising division and I transitioned into the Health Data Intelligence division. I am currently a Principal Program Manager at Oracle Health, leading program efforts for critical org-wide projects.
-                        These projects are focused on overhauling the reporting systems that our customers interact with and migrating our legacy systems to Oracle owned and operated equivalent systems.
-                        I work closely with cross-functional teams to ensure that we are delivering these high-value projects on time and within budget.
-                    </Text>
-                    <Text>
-                        I was born and raised in Queens, NY. I spent some time living on the West Coast in Seattle when I was working for eBay, and then 8 or so years living in Brooklyn, NY where I met my wife.
-                        In 2024 we moved to Durham, NC where we now live with our dog Koda. When I am not working, I enjoy training brazilian jiu jitsu. I am a black belt under Josh Griffiths, owner of <a href="https://www.clockworkbjj.com/" target="_blank" style={{ textDecoration: "underline" }}>Clockwork Jiu Jitsu</a>. 
-                        I have been training for over a decade and have made some amazing connections along the way.
-                        I currently train and teach at <a href="https://elevatemmaacademy.com/" target="_blank" style={{ textDecoration: "underline" }}>Elevate MMA</a>.
-                    </Text>
-                </Flex>
-            </Flex>
-        </Box>
-    );
+  return (
+    <Box
+      bg={colorMode === "light" ? "white" : "gray.800"}
+      color={colorMode === "light" ? "black" : "white"}
+      p={6}
+      borderRadius="xl"
+      boxShadow="md"
+      w={{ base: "100%", md: "75%", lg: "60%" }}
+      m="auto"
+    >
+      <Heading as="h2" size="lg" mb={4} pl={{ base: 2, md: 0 }}>
+        About Me
+      </Heading>
+      <Flex direction="row" mb={4} gap={{ base: 2, md: 4 }}>
+        <Timeline />
+        <Flex direction="column" mb={4} w={{ base: "100%", md: "75%" }} gap={4}>
+          <Text>
+            I graduated from CUNY Baruch College in 2015 and jumped straight
+            into adtech through MediaMath's Marketing Engineer program. That
+            experience gave me a deep appreciation for the intersection of
+            technology and business — and set the trajectory for everything that
+            followed. From there I went to eBay managing programmatic
+            advertising, then to Moat, an ad verification company later acquired
+            by Oracle.
+          </Text>
+          <Text>
+            In 2019 I joined PebblePost, a startup building programmatic direct
+            mail — a genuinely interesting space that was cut short by the
+            pandemic. I then joined Amazon's Advertising division, where I built
+            Launchpad, an internal launch management platform that achieved 100%
+            adoption across all product teams in the org and became the release
+            tracking system used to run leadership-level standups.
+          </Text>
+          <Text>
+            In 2022 I rejoined Oracle as a Technical Program Manager. When
+            Oracle divested its Advertising division in 2024, I moved into
+            Oracle Health, where I'm now a Principal TPM leading an org-wide
+            infrastructure migration from AWS to OCI across 60 globally
+            distributed teams and 1,100+ engineers — while overseeing an $70M
+            annually recurring vendor portfolio. I also build my own tooling: an
+            AI-powered migration tracking application I developed in-house now
+            surfaces dependency risks and slipping timelines for weekly
+            leadership reviews.
+          </Text>
+          <Text>
+            I grew up in Queens, spent time in Seattle while at eBay, and lived
+            in Brooklyn for nearly a decade — where I met my wife. In 2024 we
+            moved to Durham, NC with our dog Koda. Outside of work, Brazilian
+            jiu jitsu is a serious part of my life. I'm a black belt under Josh
+            Griffiths at Clockwork Jiu Jitsu, with over a decade of training
+            behind me. I currently train and teach at Elevate MMA. The
+            discipline, problem-solving, and community that come with BJJ have
+            shaped how I approach my work as much as anything in my career.
+          </Text>
+        </Flex>
+      </Flex>
+    </Box>
+  );
 }
 
 export default About;
