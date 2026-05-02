@@ -1,10 +1,10 @@
-import { Box, Heading, Flex } from "@chakra-ui/react";
+import { Box, Heading, VStack } from "@chakra-ui/react";
 import { useColorMode } from "../ui/color-mode";
-import ProjectCard from "../structures/Card";
-import { projectList } from "../data-logic/ProjectList";
+import CaseStudyCard from "../structures/CaseStudyCard";
+import { caseStudyList } from "../data-logic/CaseStudyList";
 
 function Projects() {
-    const { colorMode, toggleColorMode } = useColorMode();
+    const { colorMode } = useColorMode();
 
     return (
         <Box
@@ -13,17 +13,17 @@ function Projects() {
         p={6}
         borderRadius="xl"
         boxShadow="md"
-        w={{ base: "100%", md: "75%" }}
+        w={{ base: "100%", md: "85%" }}
         m="auto"
         >
-        <Heading as="h2" size="lg" mb={4} pl={2}>
+        <Heading as="h2" size="lg" mb={6} pl={2}>
             Portfolio
         </Heading>
-        <Flex gap={10} flexWrap="wrap" justifyContent="center">
-            {projectList.slice(0).reverse().map((project) => (
-                <ProjectCard key={project.name} project={project} />
+        <VStack gap={6} w="100%">
+            {caseStudyList.map((study) => (
+                <CaseStudyCard key={study.id} study={study} />
             ))}
-        </Flex>
+        </VStack>
         </Box>
     );
 }

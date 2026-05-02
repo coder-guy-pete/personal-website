@@ -1,5 +1,6 @@
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaNpm } from "react-icons/fa";
-import { SiTypescript, SiExpress, SiPostgresql, SiVite, SiBootstrap, SiTailwindcss, SiChakraui, SiMongodb, SiMongoose, SiGraphql, SiApollographql } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaNpm, FaRobot } from "react-icons/fa";
+import { SiTypescript, SiExpress, SiPostgresql, SiVite, SiBootstrap, SiTailwindcss, SiChakraui, SiMongodb, SiMongoose, SiGraphql, SiApollographql, SiJira, SiAmazonwebservices } from "react-icons/si";
+import { MdPeople, MdAccountTree } from "react-icons/md";
 
 export function getSkillIcon(skill) {
     switch (skill) {
@@ -37,6 +38,16 @@ export function getSkillIcon(skill) {
             return <SiGraphql />;
         case "Apollo":
             return <SiApollographql />;
+        case "Jira":
+            return <SiJira />;
+        case "AWS":
+            return <SiAmazonwebservices />;
+        case "AI/ML":
+            return <FaRobot />;
+        case "Stakeholder Management":
+            return <MdPeople />;
+        case "Program Strategy":
+            return <MdAccountTree />;
         default:
             return null;
     }
